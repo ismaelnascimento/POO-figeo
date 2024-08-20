@@ -1,9 +1,8 @@
 package br.edu.figplanas;
 
-public class Losango {
+public class Losango extends FormasPlanas {
    public double diagonalMaior;
    public double diagonalMenor;
-   public double area;
    
    public void calcArea() {
 	   area = (diagonalMaior * diagonalMenor) / 2;

@@ -1,6 +1,6 @@
 package br.edu.figplanas;
 
-public class Retangulo {
+public class Retangulo extends FormasPlanas {
    public double altura;
    public double base;
    public double area;

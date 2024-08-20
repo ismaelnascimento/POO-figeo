@@ -1,12 +1,10 @@
 package br.edu.figplanas;
 
-public class Quadrado {
-   public double altura;
-   public double base;
-   public double area;
+public class Quadrado extends FormasPlanas {
+   public double lado;
    
    public void calcArea() {
-	   area = base * altura;
+	   area = Math.pow(lado, 2);
 	   System.out.println("Área do quadrado: " + area);
    }
 }

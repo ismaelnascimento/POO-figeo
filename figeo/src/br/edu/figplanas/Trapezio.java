@@ -1,6 +1,6 @@
 package br.edu.figplanas;
 
-public class Trapezio {
+public class Trapezio extends FormasPlanas {
    public double baseMaior;
    public double baseMenor;
    public double altura;

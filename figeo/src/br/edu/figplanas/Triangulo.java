@@ -1,6 +1,6 @@
 package br.edu.figplanas;
 
-public class Triangulo {
+public class Triangulo extends FormasPlanas {
    public double altura;
    public double base;
    public double area;
